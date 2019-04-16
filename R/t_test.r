@@ -2,7 +2,7 @@
 t_test <- function(x, ...) UseMethod("t.test")
 #pass two arrays to find the t-test between two subtypes
 t_test.default <-function(x, y = NULL, alternative = c("two.sided", "less", "greater"),
-                          mu = 0, paired = FALSE, var.equal = FALSE, conf.level = 0.99,
+                          mu = 0, paired = FALSE, var.equal = FALSE, conf.level = 0.95,
                           ...)
 {
   alternative <- match.arg(alternative)
