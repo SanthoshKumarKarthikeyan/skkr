@@ -5,3 +5,7 @@ box_plot <- function(x,...)
           horizontal = TRUE,
           notch = FALSE)
 }
+
+#Example:
+#mtcars <- as.matrix(mtcars)
+#box_plot(mtcars)
