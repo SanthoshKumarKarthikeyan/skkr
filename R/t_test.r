@@ -104,4 +104,10 @@ t_test.default <-function(x, y = NULL, alternative = c("two.sided", "less", "gre
   return(rval)
 }
 
+                    
+#examples:
+#a <- mtcars$mpg
+#b <- mtcars$hp
+#t_test(a) #single sided t-test
+#t_test(a,b) #two-tailed t-test
 
