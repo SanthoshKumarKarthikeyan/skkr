@@ -8,3 +8,7 @@ heat_map <- function(b)
   d <- heatmap(b,col=brewer.pal(10,"Blues"), Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc), scale="row", density.info="none", trace="none")
 }
 
+
+#Example:
+#mtcars <- as.matrix(mtcars)
+#heat_map(mtcars)
